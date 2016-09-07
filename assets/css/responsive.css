@@ -1,0 +1,10 @@
+@media screen and (max-width: 550px) {
+    .logo {
+        display: none;
+}
+
+    .title {
+        width: 100% ;
+        text-align: center ;
+    }
+    }
