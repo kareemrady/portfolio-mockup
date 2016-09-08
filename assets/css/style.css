@@ -51,11 +51,11 @@ img:hover {
     margin-top: 4%;
 }
 .featured {
+    width: 100%;
     margin-top: 3%;
 }
 
 .featured-header {
-    width: 100%;
     margin-bottom: 2%;
     color: #7d97ad;
     font-family: 'Prompt', sans-serif;
