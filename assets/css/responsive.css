@@ -20,9 +20,6 @@
     .featured-header {
         font-size: 1.5rem;
     }
- .hero {
-    display: none;
-}
 
  }
 @media screen and (min-width: 550px) and (max-width: 1200px) {
