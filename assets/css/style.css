@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
 }
+html, body { /*Overriding Bootstrap defaults*/
+    font-size: 16px;
+}
 img {
     max-width: 100%;
 }
 
+img:hover {
+    cursor: pointer;
+}
 
 .container {
     width: 60%;
@@ -64,8 +70,8 @@ img {
 }
 
 .app {
-    width: calc(100%/3 - 20px);
-    margin-right: 30px;
+    width: calc((100% - 40px)/3);
+    margin-right: 20px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -83,4 +89,11 @@ img {
     text-transform: none;
     text-decoration: none;
     color: black;
+}
+.bootbox-body img {
+    width: 100%
+}
+.bootbox-body {
+    text-align: center;
+    font-size: 1.5em;
 }

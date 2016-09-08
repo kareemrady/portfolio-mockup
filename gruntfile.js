@@ -13,7 +13,7 @@ module.exports = function(grunt){
         cssmin: {
             target: {
                 files: {
-                    'css/main.css': ['assets/css/normalize.css', 'assets/css/style.css', 'assets/css/responsive.css']
+                    'css/main.css': ['assets/css/bootstrap.css', 'assets/css/normalize.css', 'assets/css/style.css', 'assets/css/responsive.css']
                 }
             }
         },

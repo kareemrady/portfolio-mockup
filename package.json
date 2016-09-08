@@ -1,5 +1,5 @@
 {
-  "name": "project-jquery",
+  "name": "project-portfolio",
   "version": "1.0.0",
   "description": "Jquery Frontend",
   "author": "Kareem Rady",
@@ -9,6 +9,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-cssmin": "~1.0.2",
-    "matchdep": "~0.1.2"
+    "matchdep": "~0.1.2",
+    "bootbox": "~4.4.0"
   }
 }
