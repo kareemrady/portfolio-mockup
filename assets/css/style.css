@@ -3,6 +3,7 @@
 }
 html, body { /*Overriding Bootstrap defaults*/
     font-size: 16px;
+    color: #2d3c49;
 }
 img {
     max-width: 100%;
@@ -88,7 +89,7 @@ img:hover {
 .github-links {
     text-transform: none;
     text-decoration: none;
-    color: black;
+    color: #2d3c49;
 }
 .bootbox-body img {
     width: 100%
