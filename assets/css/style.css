@@ -4,6 +4,8 @@
 img {
     max-width: 100%;
 }
+
+
 .container {
     width: 60%;
     margin: 0 auto;
@@ -14,7 +16,7 @@ img {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #7d97ad;
     margin-top: 3%;
 }
 .logo, .title {
@@ -26,7 +28,17 @@ img {
 }
 .title {
     text-align: right;
-    line-height: 80%;
+}
+.title h1, h4 {
+    line-height: 10%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.title h4 {
+    font-size: 1.1em;
+    font-weight: 300;
 }
 .hero {
     width:100%;
@@ -39,20 +51,36 @@ img {
 .featured-header {
     width: 100%;
     margin-bottom: 2%;
+    color: #7d97ad;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.7rem;
 }
 
 .apps {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .app {
     width: calc(100%/3 - 20px);
     margin-right: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .app:last-of-type {
     margin-right: 0;
+}
+
+.app p {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+.github-links {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
 }
