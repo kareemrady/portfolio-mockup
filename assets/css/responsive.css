@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .logo {
         margin-top: 10px;
         width: 100%;
@@ -23,7 +23,7 @@
     }
 
  }
-@media screen and (min-width: 550px) and (max-width: 1200px) {
+@media screen and (min-width: 650px) and (max-width: 1200px) {
 
     .title {
         width:70%;
@@ -36,14 +36,25 @@
         line-height: 80%;
     }
     .github-links {
-        display: none;
+        font-size: 0.9em;
     }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 650px) and (max-width: 960px) {
+    .app {
+        width: calc((100% - 10px)/2);
+        margin: 0 5px 10px 0;
+    }
 
     .app p {
         font-size: 1em;
     }
-
-
 }
+
+
+/*@media screen and (max-width: 960px) {
+
+    
+    .app {
+        margin-right: 5px;
+    }
+}*/
