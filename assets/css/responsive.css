@@ -38,8 +38,6 @@
     .github-links {
         font-size: 0.9em;
     }
-
-@media screen and (min-width: 650px) and (max-width: 960px) {
     .app {
         width: calc((100% - 10px)/2);
         margin: 0 5px 10px 0;
@@ -50,11 +48,3 @@
     }
 }
 
-
-/*@media screen and (max-width: 960px) {
-
-    
-    .app {
-        margin-right: 5px;
-    }
-}*/
